@@ -1,0 +1,21 @@
+// Variables para aplicarlas en font-weight
+  $light      : 300;
+  $normal     : 400;
+  $semi-bold  : 600;
+  $bold       : 700;
+  $extra-bold : 800;
+
+// PALETA DE COLOR
+  $black: #000;
+  $white: #fff;
+  $main-color: #2A2AB3;
+  $second-color: #000030;
+  $third-color: #3b47d9;
+
+
+  @import "base/base";
+  // Tema. Los componentes básicos de cualquier proyecto
+  @import "tema/main";
+  @import "tema/navbar";
+  @import "tema/banner";
+  @import "tema/footer";
